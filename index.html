@@ -1,0 +1,106 @@
+<!-- Jaime Roselló Gómez -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONSTER HIGH</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+        });
+    </script>
+
+    <header>
+        <nav class="navbar is-dark" style="height: 5em;">
+            <div class="navbar-brand is-align-items-center">
+                <a href=""><img class="ml-5" src="Monster-High-logo.png" alt="" style="height: 7em;"></a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbar" class="navbar-menu navbar-end">
+
+                <a href="" class="navbar-item">RECEPTION</a>
+
+                <a href="" class="navbar-item">STUDENTS</a>
+
+                <a href="" class="navbar-item">CONTACT</a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">CHARACTERS</a>
+
+                    <div class="navbar-dropdown">
+                        <a href="" class="navbar-item has-text-black">DRACULAURA</a>
+                        <a href="" class="navbar-item has-text-black">CLEO DE NILE</a>
+                        <a href="" class="navbar-item has-text-black">FRANKIE STEIN</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="py-6">
+
+        <div class="column is-one-fifth has-text-centered card is-shadowless has-background-dark">
+            <figure class="card-image image is-inline-block">
+                <img  src="draculaura.png" alt="" style="height: 15em;">
+            </figure>
+            <div class="card-content has-background-light">
+                <h1 class="is-bold">DRACULAURA</h1>
+                <p class="has-text-justified">Draculaura es conocida por ser la hija del Conde Drácula y ha sido retratada como una adolescente amigable y extrovertida. A diferencia de la mayoría de los vampiros, ella es vegetariana y no bebe sangre, lo que agrega un toque único a su personaje. Su apariencia se caracteriza por su tez pálida, cabello negro y rosa, y su amor por la moda.</p>
+            </div>
+        </div>
+        <div class="column is-one-fifth has-text-centered card is-shadowless has-background-dark">
+            <figure class="card-image image is-inline-block">
+                <img  src="draculaura.png" alt="" style="height: 15em;">
+            </figure>
+            <div class="card-content has-background-light">
+                <h1 class="is-bold">DRACULAURA</h1>
+                <p class="has-text-justified">Draculaura es conocida por ser la hija del Conde Drácula y ha sido retratada como una adolescente amigable y extrovertida. A diferencia de la mayoría de los vampiros, ella es vegetariana y no bebe sangre, lo que agrega un toque único a su personaje. Su apariencia se caracteriza por su tez pálida, cabello negro y rosa, y su amor por la moda.</p>
+            </div>
+        </div>
+        <div class="column is-one-fifth has-text-centered card is-shadowless has-background-dark">
+            <figure class="card-image image is-inline-block">
+                <img  src="draculaura.png" alt="" style="height: 15em;">
+            </figure>
+            <div class="card-content has-background-light">
+                <h1 class="is-bold">DRACULAURA</h1>
+                <p class="has-text-justified">Draculaura es conocida por ser la hija del Conde Drácula y ha sido retratada como una adolescente amigable y extrovertida. A diferencia de la mayoría de los vampiros, ella es vegetariana y no bebe sangre, lo que agrega un toque único a su personaje. Su apariencia se caracteriza por su tez pálida, cabello negro y rosa, y su amor por la moda.</p>
+            </div>
+        </div>
+        
+    </main>
+</body>
+
+</html>
